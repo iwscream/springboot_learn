@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+}
+label {
+    width: 60px;
+    height: 40px;
+    color: #FBFCFC;
+    text-align: center;
+    font-size: 16x;
+    line-height: 40px;
+    background: #EC7063;
+    transform: translate3d(0, -43px, 0);
+    margin-left: 30px;
+    border: 1px solid #FF6F60;
+}
+
+input {
+    color: #424949;
+    margin-left: 90px;
+    border: 1px solid #FF6F60;
+    margin-right: 30px;
+    outline: none;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.guide {
+    width: 95%;
+    border: 5px solid #FBFCFC;
+    margin-bottom: 20px;
+}
+
+.create-club {
+    margin: 0 30px;
+}

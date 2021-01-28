@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /text
+    session:
+      timeout: 3600
+  tomcat:
+    uri-encoding: utf-8
+    max-threads: 200
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    mode: .html
+    servlet:
+  mvc:
+    view:
+      suffix:
+  profiles: test
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/clubmanager
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
